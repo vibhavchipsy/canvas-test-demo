@@ -65,7 +65,7 @@ function drawText() {
     ctx.fillStyle = "white"; // Text color
     ctx.font = "20px Arial"; // Font size and style
     ctx.textAlign = "center"; // Center the text
-    ctx.fillText(text, canvas.width / 2, canvas.height - 50); // Position text at the bottom
+    ctx.fillText(text, canvas.width / 2, canvas.height - 80); // Position text at the bottom
 }
 
 // Handle image upload event
