@@ -22,4 +22,6 @@ input {
 canvas {
     margin-top: 20px;
     border: 1px solid #ccc;
+    width: 400px;
+    height: 400px;
 }

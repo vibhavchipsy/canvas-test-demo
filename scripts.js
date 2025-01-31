@@ -5,7 +5,7 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
 // Set fixed canvas size
-const CANVAS_SIZE = 400;
+const CANVAS_SIZE = 600;
 canvas.width = CANVAS_SIZE;
 canvas.height = CANVAS_SIZE;
 
@@ -43,7 +43,7 @@ function drawBackground() {
 function drawUploadedImage() {
     if (!uploadedImg) return; // Skip if no image uploaded
 
-    const imgSize = 150; // Fixed image size
+    const imgSize = 200; // Fixed image size
     const xPos = (canvas.width - imgSize) / 2; // Center horizontally
     const yPos = (canvas.height - imgSize) / 2; // Center vertically
     const radius = imgSize / 2; // Half of image size (75px)
